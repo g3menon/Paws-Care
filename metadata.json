@@ -1,0 +1,7 @@
+{
+  "name": "Paws & Care",
+  "description": "A comprehensive mobile and web application for veterinary appointments, emergency services, and pet care management. Book appointments, consult with vets via video, order medications, and alert the community for lost pets, all in one friendly platform.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
