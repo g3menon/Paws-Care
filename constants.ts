@@ -6,7 +6,7 @@ export const MOCK_PETS: Pet[] = [
     name: 'Buddy',
     breed: 'Golden Retriever',
     age: 5,
-    imageUrl: 'https://i.imgur.com/0cONY5P.jpeg$0',
+    imageUrl: 'https://github.com/g3menon/Paws-Care-Images/blob/main/buddy.jpg?raw=true',
     history: ['Annual vaccination (2023)', 'Flea and tick prevention (Monthly)', 'Minor paw injury (2022)'],
   },
   {
@@ -14,7 +14,7 @@ export const MOCK_PETS: Pet[] = [
     name: 'Lucy',
     breed: 'Siamese Cat',
     age: 3,
-    imageUrl: 'https://i.imgur.com/hKe64uW.jpeg$0',
+    imageUrl: 'https://github.com/g3menon/Paws-Care-Images/blob/main/lucy.jpg?raw=true',
     history: ['Spayed (2022)', 'Annual check-up (2023)', 'Dental cleaning (2023)'],
   },
 ];
@@ -29,7 +29,7 @@ export const MOCK_CLINICS: Clinic[] = [
     distance: 2.5,
     isPinned: false,
     availableSlots: ['09:00 AM', '11:30 AM', '02:00 PM', '04:15 PM'],
-    imageUrl: 'https://i.imgur.com/a7Rf7hD.jpeg$0',
+    imageUrl: 'https://github.com/g3menon/Paws-Care-Images/blob/main/happypaws.jpg?raw=true',
     doctors: [
         { id: 101, name: 'Dr. Emily Carter' },
         { id: 102, name: 'Dr. John Miller' },
@@ -44,7 +44,7 @@ export const MOCK_CLINICS: Clinic[] = [
     distance: 1.2,
     isPinned: true,
     availableSlots: ['10:00 AM', '10:30 AM', '03:00 PM'],
-    imageUrl: 'https://i.imgur.com/B5mZ8Yb.jpeg$0',
+    imageUrl: 'https://github.com/g3menon/Paws-Care-Images/blob/main/furryfriends.jpg?raw=true',
     doctors: [
         { id: 201, name: 'Dr. Sarah Davis' },
         { id: 202, name: 'Dr. Michael Chen' },
@@ -59,7 +59,7 @@ export const MOCK_CLINICS: Clinic[] = [
     distance: 5.8,
     isPinned: false,
     availableSlots: ['09:30 AM', '12:00 PM', '01:30 PM', '05:00 PM'],
-    imageUrl: 'https://i.imgur.com/oKsHqIp.jpeg',
+    imageUrl: 'https://github.com/g3menon/Paws-Care-Images/blob/main/crittercare.jpg?raw=true',
     doctors: [
         { id: 301, name: 'Dr. Jessica Wilson' },
     ]
