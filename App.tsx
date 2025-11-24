@@ -1315,7 +1315,7 @@ export default function App() {
             <h1 className="text-xl font-bold text-amber-900 tracking-tight">Paws & Care</h1>
             <div className="flex items-center space-x-2">
                 <button onClick={() => setActiveModal('cart')} className="relative p-2 text-slate-600 hover:text-amber-600">
-                    <Icon name="ShoppingBagIcon" className="w-6 h-6" filled={cartItemCount > 0} />
+                    <Icon name="ShoppingCartIcon" className="w-6 h-6" filled={cartItemCount > 0} />
                     {cartItemCount > 0 && (
                         <span className="absolute top-0 right-0 block h-4 w-4 rounded-full bg-red-500 text-white text-xs font-bold ring-2 ring-amber-50">{cartItemCount}</span>
                     )}

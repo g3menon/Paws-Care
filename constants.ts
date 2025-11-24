@@ -153,7 +153,7 @@ export const MOCK_ADDRESSES: Address[] = [
 export const NAV_ITEMS = [
     { name: 'Home', icon: 'HomeIcon' },
     { name: 'Appointments', icon: 'CalendarIcon' },
-    { name: 'My Pets', icon: 'HeartIcon' },
+    { name: 'My Pets', icon: 'PawIcon' },
     { name: 'Shop', icon: 'ShoppingBagIcon' },
 ] as const;
 

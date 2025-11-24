@@ -27,6 +27,23 @@ const UserIcon = (props: React.SVGProps<SVGSVGElement>) => (
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
     </svg>
 );
+const DogIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 2C8 2 6 6 6 9C6 11.5 4 12.5 4 15C4 19 8 22 12 22C16 22 20 19 20 15C20 12.5 18 11.5 18 9C18 6 16 2 12 2Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 10C9.82843 10 10.5 9.32843 10.5 8.5C10.5 7.67157 9.82843 7 9 7C8.17157 7 7.5 7.67157 7.5 8.5C7.5 9.32843 8.17157 10 9 10Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 10C15.8284 10 16.5 9.32843 16.5 8.5C16.5 7.67157 15.8284 7 15 7C14.1716 7 13.5 7.67157 13.5 8.5C13.5 9.32843 14.1716 10 15 10Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 16C10.5 16 10 18 10 18H14C14 18 13.5 16 12 16Z" />
+    </svg>
+);
+const PawIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <circle cx="12" cy="17" r="4.5" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="5" cy="11.5" r="2" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="9" cy="7" r="2" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="15" cy="7" r="2" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="19" cy="11.5" r="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+);
 
 // --- Filled Icons (for Navigation) ---
 const HomeIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
@@ -49,6 +66,20 @@ const UserIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
   <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
     <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clipRule="evenodd" />
   </svg>
+);
+const DogIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C8 2 6 6 6 9C6 11.5 4 12.5 4 15C4 19 8 22 12 22C16 22 20 19 20 15C20 12.5 18 11.5 18 9C18 6 16 2 12 2ZM9 10C8.17 10 7.5 9.33 7.5 8.5C7.5 7.67 8.17 7 9 7C9.83 7 10.5 7.67 10.5 8.5C10.5 9.33 9.83 10 9 10ZM15 10C14.17 10 13.5 9.33 13.5 8.5C13.5 7.67 14.17 7 15 7C15.83 7 16.5 7.67 16.5 8.5C16.5 9.33 15.83 10 15 10ZM12 16C13.5 16 14 18 14 18H10C10 18 10.5 16 12 16Z"/>
+    </svg>
+);
+const PawIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <circle cx="12" cy="17" r="4.5" />
+        <circle cx="5" cy="11.5" r="2" />
+        <circle cx="9" cy="7" r="2" />
+        <circle cx="15" cy="7" r="2" />
+        <circle cx="19" cy="11.5" r="2" />
+    </svg>
 );
 
 const VideoCameraIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -121,10 +152,31 @@ const CheckCircleIcon = (props: React.SVGProps<SVGSVGElement>) => (
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
 );
+const CheckCircleIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clipRule="evenodd" />
+    </svg>
+);
+
+const ShoppingCartIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+    </svg>
+);
+const ShoppingCartIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+    </svg>
+);
 
 const ShoppingBagIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.658-.463 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+    </svg>
+);
+const ShoppingBagIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path fillRule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.763.724-1.865 1.679l-1.263 12A1.875 1.875 0 002.25 22.5h19.5a1.875 1.875 0 001.865-2.071l-1.263-12A1.875 1.875 0 0018.487 6.75H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5zM15 11.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" clipRule="evenodd" />
     </svg>
 );
 const TrashIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -170,7 +222,7 @@ const CheckIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 const SparklesIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 22.5l-.648-1.938a3.375 3.375 0 00-2.684-2.684l-1.938-.648.648-1.938a3.375 3.375 0 002.684-2.684l1.938-.648-.648 1.938a3.375 3.375 0 002.684 2.684l1.938.648.648-1.938a3.375 3.375 0 002.684 2.684l1.938.648-1.938.648a3.375 3.375 0 00-2.684 2.684z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.898 20.562L16.25 22.5l-.648-1.938a3.375 3.375 0 00-2.684-2.684l-1.938-.648.648-1.938a3.375 3.375 0 002.684-2.684l1.938-.648-.648 1.938a3.375 3.375 0 002.684 2.684z" />
     </svg>
 );
 const BookmarkIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -178,27 +230,14 @@ const BookmarkIcon = (props: React.SVGProps<SVGSVGElement>) => (
         <path strokeLinecap="round" strokeLinejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.5 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
     </svg>
 );
-const ArrowTopRightOnSquareIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-4.5 0V6m0 0h4.5m-4.5 0l-7.5 7.5" />
-    </svg>
-);
-
-
-// --- Filled Icons ---
-const CheckCircleIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.06-1.06l-3.103 3.103-1.53-1.53a.75.75 0 00-1.06 1.061l2.056 2.056a.75.75 0 001.06 0l3.64-3.64z" clipRule="evenodd" />
-    </svg>
-);
-const ShoppingBagIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-        <path fillRule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.763.724-1.865 1.679l-1.263 12A1.875 1.875 0 002.25 22.5h19.5a1.875 1.875 0 001.865-2.071l-1.263-12A1.875 1.875 0 0018.487 6.75H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a.75.75 0 100-1.5.75.75 0 000 1.5zM15 11.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" clipRule="evenodd" />
-    </svg>
-);
 const BookmarkIconFilled = (props: React.SVGProps<SVGSVGElement>) => (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
         <path fillRule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clipRule="evenodd" />
+    </svg>
+);
+const ArrowTopRightOnSquareIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-4.5 0V6m0 0h4.5m-4.5 0l-7.5 7.5" />
     </svg>
 );
 
@@ -211,6 +250,8 @@ const ICONS: { [key: string]: {
   CalendarIcon: { outline: CalendarIcon, filled: CalendarIconFilled },
   HeartIcon: { outline: HeartIcon, filled: HeartIconFilled },
   UserIcon: { outline: UserIcon, filled: UserIconFilled },
+  DogIcon: { outline: DogIcon, filled: DogIconFilled },
+  PawIcon: { outline: PawIcon, filled: PawIconFilled },
   VideoCameraIcon: { outline: VideoCameraIcon },
   PhoneIcon: { outline: PhoneIcon },
   SearchIcon: { outline: SearchIcon },
@@ -226,6 +267,7 @@ const ICONS: { [key: string]: {
   ArrowRightOnRectangleIcon: { outline: ArrowRightOnRectangleIcon },
   CheckCircleIcon: { outline: CheckCircleIcon, filled: CheckCircleIconFilled },
   ShoppingBagIcon: { outline: ShoppingBagIcon, filled: ShoppingBagIconFilled },
+  ShoppingCartIcon: { outline: ShoppingCartIcon, filled: ShoppingCartIconFilled },
   TrashIcon: { outline: TrashIcon },
   PlusIcon: { outline: PlusIcon },
   MinusIcon: { outline: MinusIcon },
